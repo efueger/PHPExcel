@@ -1,0 +1,28 @@
+engines:
+  duplication:
+    enabled: false
+    config:
+      languages:
+      - ruby
+      - javascript
+      - python
+      - php
+  fixme:
+    enabled: false
+  phpmd:
+    enabled: true
+ratings:
+  paths:
+  - "**.inc"
+  - "**.js"
+  - "**.jsx"
+  - "**.module"
+  - "**.php"
+  - "**.py"
+  - "**.rb"
+exclude_paths:
+ - unitTests/
+ - Classes/PHPExcel/Shared/
+ - Classes/PHPExcel/Calculation/
+ - Classes/PHPExcel/Reader/
+ - Classes/PHPExcel/Writer/

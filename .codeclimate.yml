@@ -26,3 +26,10 @@ exclude_paths:
  - Classes/PHPExcel/Calculation/
  - Classes/PHPExcel/Reader/
  - Classes/PHPExcel/Writer/
+ - Classes/PHPExcel/Worksheet/
+ - "Classes/PHPExcel/Worksheet.php"
+ - "Classes/PHPExcel/Calculation.php"
+ - "Classes/PHPExcel/ReferenceHelper.php"
+ - "Classes/PHPExcel/Chart/GridLines.php"
+ - "Classes/PHPExcel/Chart/Renderer/jpgraph.php"
+ - "Classes/PHPExcel.php"

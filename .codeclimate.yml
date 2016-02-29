@@ -33,3 +33,6 @@ exclude_paths:
  - "Classes/PHPExcel/Chart/GridLines.php"
  - "Classes/PHPExcel/Chart/Renderer/jpgraph.php"
  - "Classes/PHPExcel.php"
+ - Classes/PHPExcel/Chart/
+ - Classes/PHPExcel/Style/
+ - Classes/PHPExcel/Cell/
